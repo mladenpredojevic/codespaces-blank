@@ -1,16 +1,13 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cstring>
 #include "HelloTask.h"
 
-using namespace std;
-
-
-
-int main()
-{
-    Introduction dan;
+int Task::AddTask(TaskDescriptor &){
 
     return 0;
+
+}
+int Task::SetTaskState(TaskDescriptor &){
+   return 0;
+}
+int Task::ModifyTask(TaskDescriptor &){
+return 0;
 }

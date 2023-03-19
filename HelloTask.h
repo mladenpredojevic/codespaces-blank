@@ -1,12 +1,17 @@
-#pragma once
 
-class Introduction {
+#include <string>
+#include <vector>
+#include <iostream>
+#include <cstring>
+
+
+class Intro {
     public:
-    Introduction() {
+    Intro() {
         std::cout << "Zdravo!!" << "\n";
     }
 
-    ~Introduction() {
+    ~Intro() {
         std::cout << "Dovidjenja" << "\n";
     }
 };
@@ -42,7 +47,8 @@ class Task {
     }
 
 };
-class project:public Introduction {
+class Project{
+    
     std::string proj_name;
     std::vector<Task> tasks;
 };
